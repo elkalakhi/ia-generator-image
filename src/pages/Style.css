@@ -1,0 +1,63 @@
+.ia-image-generator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 20px;
+    margin: auto;
+}
+
+.header {
+    font-size: 70px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.header span {
+    color: #4F46E5;
+    font-weight: 700;
+}
+
+.img-loading img {
+    width: 512px;
+    border-radius: 40px;
+}
+
+.search-box {
+    display: flex;
+    width: 1000px;
+    height: 95px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
+    background: #374256;
+}
+
+.search-input{
+    width: 600px;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.search-input::placeholder {
+    color: #9CA3AF;
+    font-size: 24px;
+}
+.search-input[type="text"] {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.generate-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #6dc0be, #fff1e6);
+    cursor: pointer;
+}
